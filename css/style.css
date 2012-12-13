@@ -1,0 +1,28 @@
+/*fix ie*/
+header,footer,nav,section,article{display:block;}
+
+*{margin:0px;padding:0px;} /*cross browser */
+
+/* HTML TAGS */
+
+/* we zetten 1em gelijk met 10px dsoor font-size op 62.5% te zetten */
+
+body {background:#f6eaea;font-size:62.5%;}
+
+
+
+#container{margin:0 auto;width:77.5em;}
+header{float:left;width:77.5em;height:8.1em;}
+#logo{float:left;width:22.5em;height:8.1em;background:url('../images/logo.gif');}
+#top{float:left;width:55em;height:4.8em;background:url('../images/photoshop_03.png');}
+header nav{float:left;width:55em;height:3.3em;background:#9E4141;}
+header nav ul{margin-top:0.5em;}
+header nav ul li{display:inline;padding:0.4em;}
+
+section#content, section#content article{float:left;width:77.5em;padding-top:6em;}
+section#content article figure{float:left;width:22.5em;height:30em;}
+section#content article section#right{float:left;width:50em;}
+
+footer {float:left;width:55em;margin-left:22.5em;border-top:1px solid red;}
+
+.hidden{display:none;}
